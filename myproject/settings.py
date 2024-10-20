@@ -31,7 +31,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'blog-django-backend-1.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://blog-django-backend-1.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://blog-django-backend-1.onrender.com',
+                       'https://theg.vercel.app/']
+PORT = int(os.getenv('PORT', 8000))
 
 
 
