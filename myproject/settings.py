@@ -29,9 +29,9 @@ SECRET_KEY = 'django-insecure-n6#56r7e)zbgsk^*jvzo1)2ufvbh$t6bla5g0kcd8^(jl5w!&j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://raphsang.pythonanywhere.com/']
+ALLOWED_HOSTS = ['https://blog-django-backend-1.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://raphsang.pythonanywhere.com/',
+CSRF_TRUSTED_ORIGINS = ['https://blog-django-backend-1.onrender.com/',
                        'https://theg.vercel.app/']
 
 
@@ -69,6 +69,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'myproject.urls'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React development server URL
+    'https://theg.vercel.app'
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 TEMPLATES = [
