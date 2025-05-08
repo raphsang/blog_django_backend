@@ -31,8 +31,10 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['blog-django-backend-1.onrender.com', 'theg.vercel.app']
+ALLOWED_HOSTS = ['blog-django-backend-1.onrender.com', 'theuncensored.co.ke']
 
 CSRF_TRUSTED_ORIGINS = ['https://blog-django-backend-1.onrender.com', 'https://theg.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https://blog-django-backend-1.onrender.com', 'https://www.theuncensored.co.ke']
 
 
 
@@ -71,6 +73,7 @@ ROOT_URLCONF = 'myproject.urls'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React development server URL
     'https://theg.vercel.app'
+    'https://www.theuncensored.co.ke'
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 TEMPLATES = [
